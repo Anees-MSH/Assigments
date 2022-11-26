@@ -6,6 +6,7 @@ public class StudentAssign {
 	int rollNo = 190;
 	String collegeName ="JMC";
 	int markScored = 87;
+	char cgpa = 'B';
 	
 			
 
@@ -15,7 +16,7 @@ public class StudentAssign {
 		System.out.println(report.rollNo);
 		System.out.println(report.collegeName);
 		System.out.println(report.markScored);
-		
+		System.out.println(report.cgpa);
 	}
 
 }
